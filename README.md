@@ -1,3 +1,11 @@
+# F12 Fork
+F12 fork of registrator to add -internal and -useIpFromNetwork command line option.
+If you ever need to re-build and push to our own registry, run:
+```
+docker build . -t docker-registry.bjoola.nl/registrator/release:0.0.1
+docker push docker-registry.bjoola.nl/registrator/release:0.0.1
+```
+
 # Registrator
 
 Service registry bridge for Docker.
